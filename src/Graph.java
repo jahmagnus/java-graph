@@ -28,7 +28,17 @@ public class Graph {
     public void printGraph(){
 
         for(Character element: adjList.keySet()){
-            System.out.println(element);
+            System.out.println(element + " " + adjList.get(element));
         }
     }
+
+
+    //bfs
+    public void bfs(char startingNode){
+
+    }
+    
+    //dfs
+
+
 }
